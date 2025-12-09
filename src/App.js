@@ -24,7 +24,7 @@ function App() {
 
   return (
     <>
-      <header className="header">Moja aplikacja</header>
+      <header className="header">HEADER</header>
 
       <div className="container">
         <img src={monke} width={200} height={200} alt="monke" />
@@ -93,10 +93,9 @@ function App() {
         )}
       </div>
 
-      <footer className="footer">© 2025 Moja aplikacja</footer>
+      <footer className="footer">FOOTER</footer>
     </>
   );
 }
 
 export default App;
-
