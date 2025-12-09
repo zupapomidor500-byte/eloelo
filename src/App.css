@@ -3,25 +3,26 @@ body {
   background: #f5f5f5;
   padding: 0;
   margin: 0;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
-header {
+.header {
+  width: 100%;
+  text-align: center;
   font-size: 24px;
   font-weight: bold;
-  color: #333;
-  margin-bottom: 20px;
+  padding: 15px;
+  background: #ffffff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 .container {
   max-width: 500px;
   width: 100%;
-  margin: 0 auto;
   background: white;
+  margin-top: 20px;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -67,14 +68,11 @@ th {
   background: #efefef;
 }
 
-footer {
-  font-size: 14px;
-  color: #333;
-  text-align: center;
-  margin-top: 20px;
-  padding: 10px;
-  background: #f1f1f1;
+.footer {
   width: 100%;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+  background: #f1f1f1;
+  font-size: 14px;
 }
-
-
