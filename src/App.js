@@ -24,7 +24,7 @@ function App() {
 
   return (
     <>
-      <header className="header">HEADER</header>
+      <header className="header">React</header>
 
       <div className="container">
         <img src={monke} width={200} height={200} alt="monke" />
@@ -93,7 +93,7 @@ function App() {
         )}
       </div>
 
-      <footer className="footer">FOOTER</footer>
+      <footer className="footer">09.12.2025</footer>
     </>
   );
 }
