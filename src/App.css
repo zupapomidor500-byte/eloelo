@@ -9,7 +9,7 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* Rozciągamy na całą wysokość okna */
+  min-height: 100vh;
   align-items: center;
 }
 
@@ -31,7 +31,7 @@ body {
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  flex-grow: 1; /* Zajmuje dostępne miejsce, aby stopka była na dole */
+  flex-grow: 1; 
 }
 
 .form {
@@ -81,5 +81,5 @@ th {
   margin-top: 20px;
   background: #f1f1f1;
   font-size: 14px;
-  margin-top: auto; /* Zatrzymuje stopkę na dole */
+  margin-top: auto; 
 }
