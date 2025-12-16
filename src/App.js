@@ -93,7 +93,7 @@ function App() {
         )}
       </div>
 
-      <footer className="footer">09.12.2025</footer>
+      <footer className="footer">wykonal antek jaros</footer>
     </div>
   );
 }
