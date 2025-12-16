@@ -23,7 +23,7 @@ function App() {
   };
 
   return (
-    <>
+    <div className="app">
       <header className="header">React</header>
 
       <div className="container">
@@ -94,7 +94,7 @@ function App() {
       </div>
 
       <footer className="footer">09.12.2025</footer>
-    </>
+    </div>
   );
 }
 
